@@ -59,7 +59,7 @@ export function AppSidebar() {
             <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
               <BarChart3 className="h-5 w-5 text-primary-foreground" />
             </div>
-            <span className="text-base font-bold">BizManager</span>
+            <span className="text-base font-bold">Strukturama</span>
           </SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>

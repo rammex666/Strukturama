@@ -77,7 +77,7 @@ export default function Landing() {
       name: "Sophie Martin",
       role: "Directrice Générale",
       company: "TechStart",
-      content: "BizManager a transformé notre façon de travailler. La productivité de notre équipe a augmenté de 40% en seulement 3 mois.",
+      content: "Strukturama a transformé notre façon de travailler. La productivité de notre équipe a augmenté de 40% en seulement 3 mois.",
       avatar: "SM",
       rating: 5,
     },
@@ -93,7 +93,7 @@ export default function Landing() {
       name: "Julie Bernard",
       role: "Responsable RH",
       company: "PeopleFirst",
-      content: "La gestion d'équipe n'a jamais été aussi simple. BizManager nous permet de rester organisés et de garder tout le monde sur la même longueur d'onde.",
+      content: "La gestion d'équipe n'a jamais été aussi simple. Strukturama nous permet de rester organisés et de garder tout le monde sur la même longueur d'onde.",
       avatar: "JB",
       rating: 5,
     },
@@ -108,7 +108,7 @@ export default function Landing() {
               <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
                 <BarChart3 className="h-5 w-5 text-primary-foreground" />
               </div>
-              <span className="text-xl font-bold">BizManager</span>
+              <span className="text-xl font-bold">Strukturama</span>
             </div>
 
             <nav className="hidden md:flex items-center gap-6">
@@ -147,14 +147,14 @@ export default function Landing() {
             <div>
               <Badge className="mb-4" data-testid="badge-trust">
                 <CheckCircle2 className="mr-1 h-3 w-3" />
-                Utilisé par 500+ entreprises
+                Nouvel outil de gestion d'entreprise
               </Badge>
               <h1 className="text-5xl lg:text-6xl font-bold tracking-tight mb-6" data-testid="text-hero-title">
                 Gérez votre entreprise en toute{" "}
                 <span className="text-primary">simplicité</span>
               </h1>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed" data-testid="text-hero-description">
-                BizManager vous offre tous les outils nécessaires pour piloter votre entreprise efficacement. Tableau de bord intuitif, collaboration d'équipe et analyses puissantes en un seul endroit.
+                Strukturama vous offre tous les outils nécessaires pour piloter votre entreprise efficacement. Tableau de bord intuitif, collaboration d'équipe et analyses puissantes en un seul endroit.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link href="/register">
@@ -173,7 +173,7 @@ export default function Landing() {
               <div className="relative rounded-xl overflow-hidden shadow-2xl">
                 <img
                   src={heroImage}
-                  alt="Dashboard BizManager"
+                  alt="Dashboard Strukturama"
                   className="w-full h-auto"
                   data-testid="img-hero"
                 />
@@ -250,7 +250,7 @@ export default function Landing() {
               Ce Que Disent Nos Clients
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Rejoignez des centaines d'entreprises qui ont transformé leur gestion avec BizManager.
+              Rejoignez des centaines d'entreprises qui ont transformé leur gestion avec Strukturama.
             </p>
           </div>
 
@@ -294,7 +294,7 @@ export default function Landing() {
                 Prêt à Transformer Votre Entreprise ?
               </h2>
               <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-                Rejoignez des centaines d'entreprises qui utilisent déjà BizManager pour optimiser leur gestion quotidienne.
+                Rejoignez des centaines d'entreprises qui utilisent déjà Strukturama pour optimiser leur gestion quotidienne.
               </p>
               <div className="flex flex-wrap gap-4 justify-center">
                 <Link href="/register">
@@ -320,7 +320,7 @@ export default function Landing() {
                 <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
                   <BarChart3 className="h-5 w-5 text-primary-foreground" />
                 </div>
-                <span className="text-lg font-bold">BizManager</span>
+                <span className="text-lg font-bold">Strukturama</span>
               </div>
               <p className="text-sm text-muted-foreground">
                 L'outil de gestion d'entreprise moderne et intuitif.
@@ -356,7 +356,7 @@ export default function Landing() {
           </div>
 
           <div className="pt-8 border-t text-center text-sm text-muted-foreground">
-            <p>© 2025 BizManager. Tous droits réservés.</p>
+            <p>© 2025 Strukturama. Tous droits réservés.</p>
           </div>
         </div>
       </footer>
